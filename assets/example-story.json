@@ -1,0 +1,130 @@
+{
+  "title": "把一位修复师的经历画成 K 线",
+  "subject": "林舟（虚构）",
+  "initial_value": 10,
+  "seed": 77,
+  "events": [
+    {
+      "id": "learn",
+      "start": 0,
+      "end": 4,
+      "mode": "trade",
+      "target": 16,
+      "candles": 18,
+      "headline": "22岁，接到第一张订单。\n从学徒到独立接活。",
+      "emphasis": [
+        "第一张订单"
+      ],
+      "time_label": "2018年",
+      "marker": "起步",
+      "source": "虚构示例",
+      "axis_year": 2018.5,
+      "shape": "organic",
+      "category": "工作",
+      "event_date": "2018-06-01"
+    },
+    {
+      "id": "pause",
+      "start": 4,
+      "end": 7,
+      "mode": "halt",
+      "target": 16,
+      "candles": 0,
+      "headline": "23岁，家中有事。\n暂别工作台。",
+      "emphasis": [
+        "暂别"
+      ],
+      "time_label": "2019年",
+      "marker": "停牌",
+      "source": "虚构示例",
+      "axis_year": 2019.5,
+      "shape": "organic",
+      "category": "生活",
+      "event_date": "2019-06-01"
+    },
+    {
+      "id": "fall",
+      "start": 7,
+      "end": 12,
+      "mode": "trade",
+      "target": 7,
+      "candles": 24,
+      "headline": "24岁，重新开工。\n老客户却已散去。",
+      "emphasis": [
+        "散去"
+      ],
+      "time_label": "2020年",
+      "marker": "重来",
+      "source": "虚构示例",
+      "axis_year": 2020.5,
+      "shape": "organic",
+      "category": "工作",
+      "event_date": "2020-06-01"
+    },
+    {
+      "id": "rebuild",
+      "start": 12,
+      "end": 18,
+      "mode": "trade",
+      "target": 30,
+      "candles": 36,
+      "headline": "26岁，拍下修复过程。\n慢慢等来新订单。",
+      "emphasis": [
+        "新订单"
+      ],
+      "time_label": "2022年",
+      "marker": "新路",
+      "source": "虚构示例",
+      "axis_year": 2022.5,
+      "shape": "organic",
+      "category": "工作",
+      "event_date": "2022-06-01"
+    },
+    {
+      "id": "hold",
+      "start": 18,
+      "end": 22,
+      "mode": "trade",
+      "target": 29,
+      "candles": 24,
+      "volatility": 0.035,
+      "headline": "28岁，订单稳定。\n开始带第一个学徒。",
+      "emphasis": [
+        "第一个学徒"
+      ],
+      "time_label": "2024年",
+      "marker": "传艺",
+      "source": "虚构示例",
+      "axis_year": 2024.5,
+      "shape": "organic",
+      "category": "工作",
+      "event_date": "2024-06-01"
+    },
+    {
+      "id": "lookback",
+      "start": 22,
+      "end": 28,
+      "mode": "overview",
+      "target": 29,
+      "candles": 0,
+      "headline": "22—28岁，回望这段路。\n空白也成了故事的一部分。",
+      "emphasis": [
+        "故事的一部分"
+      ],
+      "time_label": "2018—2024年",
+      "marker": "",
+      "source": "虚构示例",
+      "axis_year": 2024.5,
+      "shape": "organic",
+      "category": "回看",
+      "age_label": "22—28岁"
+    }
+  ],
+  "birth_date": "1996-03-15",
+  "axis_start": 2018.0,
+  "axis_end": 2024.5,
+  "global_view": [
+    0,
+    36
+  ]
+}
